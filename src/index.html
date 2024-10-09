@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <header class="fixed z-20 mt-[38px] ml-[28px]">
+    <header class="fixed z-20 py-[38px] top-0 inset-x-0">
       <div
         class="w-header-container mx-auto flex items-center justify-between gap-10"
       >
@@ -51,10 +51,14 @@
           </li>
         </ul>
         <div class="flex justify-end items-center gap-11">
-          <button>
+          <button
+            class="w-12 h-12 justify-center items-center flex cursor-pointer"
+          >
             <img src="./img/loupe.svg" alt="" />
           </button>
-          <button>
+          <button
+            class="w-12 h-12 justify-center items-center flex cursor-pointer"
+          >
             <img src="./img/menu.svg" alt="" />
           </button>
         </div>
@@ -127,6 +131,138 @@
               </g>
             </svg>
           </button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-palm-1 bg-no-repeat bg-cover bg-center relative z-10">
+      <div class="absolute inset-0 z-[-1] bg-bg-color opacity-90"></div>
+      <div
+        class="w-palm-container mx-auto max-w-full flex flex-col justify-center items-center gap-[192px] pt-[207px] pb-[305px]"
+      >
+        <div class="flex gap-[130px]">
+          <div
+            class="w-[630px] h-[460px] overflow-hidden shrink-0 rounded-[10px]"
+          >
+            <img src="./img/3.jpg" alt="" class="w-full h-auto" />
+          </div>
+          <div class="max-w-[479px] flex flex-col gap-8 justify-center">
+            <div class="flex flex-col gap-5">
+              <h3 class="text-h3 font-bold text-white">
+                The walkways of Indonesia spellbind
+              </h3>
+              <p class="text-paragraph text-text-lighten tracking-widest">
+                Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                commodo magna et libero mollis rhoncus.
+              </p>
+            </div>
+            <button
+              class="bg-main-red flex justify-center items-center text-white font-bold text-lg leading-[1.5] px-6 py-4 rounded-full h-[59px] w-[179px]"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="flex gap-[130px]">
+          <div class="max-w-[479px] flex flex-col gap-8 justify-center">
+            <div class="flex flex-col gap-5">
+              <h3 class="text-h3 font-bold text-white">
+                Perfect beaches exude relaxation and fun
+              </h3>
+              <p class="text-paragraph text-text-lighten tracking-widest">
+                Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                commodo magna et libero mollis rhoncus.
+              </p>
+            </div>
+            <button
+              class="bg-main-red flex justify-center items-center text-white font-bold text-lg leading-[1.5] px-6 py-4 rounded-full h-[59px] w-[179px]"
+            >
+              Learn More
+            </button>
+          </div>
+          <div
+            class="w-[630px] h-[460px] overflow-hidden shrink-0 rounded-[10px]"
+          >
+            <img src="./img/4.jpg" alt="" class="w-full h-auto" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-mountain-1 bg-no-repeat bg-cover bg-center relative z-10">
+      <div
+        class="w-mountain-container mx-auto max-w-full pt-[127px] pb-[224px]"
+      >
+        <div class="flex flex-col gap-11 pb-[933px]">
+          <p class="text-blue text-[50px] font-bold leading-normal text-center">
+            Explore Our Secrets
+          </p>
+          <ul class="flex gap-[31px] justify-center items-center">
+            <li class="w-[405px] h-[257px] overflow-hidden rounded-[10px]">
+              <img src="./img/5.jpg" alt="" class="w-full h-auto" />
+            </li>
+            <li class="w-[405px] h-[257px] overflow-hidden rounded-[10px]">
+              <img src="./img/6.jpg" alt="" class="w-full h-auto" />
+            </li>
+            <li class="w-[405px] h-[257px] overflow-hidden rounded-[10px]">
+              <img src="./img/7.jpg" alt="" class="w-full h-auto" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-bg-color/90 pt-[201px] pb-[224px]">
+        <div
+          class="w-mountain-container mx-auto max-w-full flex flex-col gap-[39px]"
+        >
+          <div class="flex flex-col gap-9 items-center justify-start">
+            <p class="font-bold text-white text-6xl">By The Numbers</p>
+            <p
+              class="text-paragraph text-text-lighten tracking-[0.5px] max-w-[484px] text-center"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              commodo magna et libero.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+          </div>
+          <ul class="flex justify-center items-center gap-[91px]">
+            <li class="flex flex-col gap-[18px] items-center justify-center">
+              <p
+                class="font-bold text-main-red text-[42px] leading-[49px] tracking-[0.39px] text-center"
+              >
+                100+
+              </p>
+              <p
+                class="text-paragraph tracking-[0.5px] text-text-lighten text-center max-w-[340px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                commodo magna et libero.
+              </p>
+            </li>
+            <li class="flex flex-col gap-[18px] items-center justify-center">
+              <p
+                class="font-bold text-main-red text-[42px] leading-[49px] tracking-[0.39px] text-center"
+              >
+                43,000+
+              </p>
+              <p
+                class="text-paragraph tracking-[0.5px] text-text-lighten text-center max-w-[340px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                commodo.
+              </p>
+            </li>
+            <li class="flex flex-col gap-[18px] items-center justify-center">
+              <p
+                class="font-bold text-main-red text-[42px] leading-[49px] tracking-[0.39px] text-center"
+              >
+                30+
+              </p>
+              <p
+                class="text-paragraph tracking-[0.5px] text-text-lighten text-center max-w-[340px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                commodo magna et libero.
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: {
         "hero-1": "url('./img/hero.jpg')",
         "logo-1": "url('./img/logo.svg')",
+        "palm-1": "url('./img/4.jpg')",
+        "mountain-1": "url('./img/8.jpg')",
       },
       colors: {
         gray: "#40424C",
@@ -16,6 +18,7 @@ module.exports = {
         "grey-reduced": "#85A3B2",
         "light-text": "#151439",
         "paragraph-dark": "#6F7787",
+        "bg-color": "#020C21",
       },
       fontSize: {
         h1: ["120px", "130px"],
@@ -24,11 +27,12 @@ module.exports = {
         h4: ["26px", "41px"],
         paragraph: ["18px", "28px"],
         cta: ["18px", "1.5"],
-        "paragraph-light": ["18px", "28px"],
       },
       width: {
         "hero-container": "1366px",
         "header-container": "1751px",
+        "palm-container": "1280px",
+        "mountain-container": "1277px",
       },
     },
   },
