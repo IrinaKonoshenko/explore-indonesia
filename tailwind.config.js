@@ -22,6 +22,7 @@ module.exports = {
         "paragraph-dark": "#6F7787",
         "bg-color": "#020C21",
         "bg-button": "#E93A7D",
+        "bg-blue": "#DCE8F2",
       },
       fontSize: {
         h1: ["120px", "130px"],
@@ -38,6 +39,8 @@ module.exports = {
         "mountain-container": "1277px",
         "waves-container": "614px",
         "palm-container-2": "1275px",
+        "photo-container": "1170px",
+        "blue-container": "1162px",
       },
     },
   },
