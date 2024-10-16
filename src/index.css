@@ -5,3 +5,7 @@
 body {
   font-family: "Roboto";
 }
+
+.newClass {
+  background-color: rgb(1, 10, 32, 0.7);
+}
