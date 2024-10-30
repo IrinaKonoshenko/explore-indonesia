@@ -8,4 +8,15 @@ body {
 
 .newClass {
   background-color: rgb(1, 10, 32, 0.7);
+  transition: all ease-in-out 0.3s;
+}
+
+.btn-up_hide {
+  display: none;
+}
+@media (max-width: 767px) {
+  .newClass {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
 }
